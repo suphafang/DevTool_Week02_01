@@ -1,0 +1,38 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #F0F0F0F0;
+    min-height: 100%;
+    margin: 0;
+    display: grid;
+    place-items: center;
+}
+
+.box {
+    background-color: #FFFFFF;
+    max-width: 40rem;
+    border-radius: 0.75rem;
+    padding: 2.5rem 2.5rem;
+    margin: 1rem;
+    box-shadow: 0rem 0rem 1.5rem 0rem hsla(0, 0%, 0%, .125);
+}
+
+.link {
+    background-color: hsla(216, 100%, 19%, 1);
+    color: #FFFFFF;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition-duration: 300ms;
+}
+
+.link:hover {
+    background-color: hsla(216, 100%, 25%, 1);
+}
